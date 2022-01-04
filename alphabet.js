@@ -1,5 +1,5 @@
 function sortLetters(word) {
-    let letters = word.split("");
-    return letters.join('');
+    return word.split('').sort().join('');
 }
 console.log(sortLetters("konexio"));
+console.log(sortLetters('KoneXiO'));
